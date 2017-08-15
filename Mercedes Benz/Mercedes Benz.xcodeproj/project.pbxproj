@@ -19,6 +19,7 @@
 		422C03FC1F4230FF008DAFF1 /* Plata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422C03FA1F4230FF008DAFF1 /* Plata.jpg */; };
 		422C03FE1F4238AB008DAFF1 /* rojo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422C03FD1F4238AB008DAFF1 /* rojo.jpg */; };
 		422C04001F4238B7008DAFF1 /* azul.png in Resources */ = {isa = PBXBuildFile; fileRef = 422C03FF1F4238B7008DAFF1 /* azul.png */; };
+		423B17471F42772C00D93939 /* Vista2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423B17461F42772C00D93939 /* Vista2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		422C03FA1F4230FF008DAFF1 /* Plata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Plata.jpg; sourceTree = "<group>"; };
 		422C03FD1F4238AB008DAFF1 /* rojo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rojo.jpg; sourceTree = "<group>"; };
 		422C03FF1F4238B7008DAFF1 /* azul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = azul.png; sourceTree = "<group>"; };
+		423B17461F42772C00D93939 /* Vista2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vista2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				422C03F81F422FE8008DAFF1 /* Imagen */,
 				422C03D11F422E70008DAFF1 /* LaunchScreen.storyboard */,
 				422C03D41F422E70008DAFF1 /* Info.plist */,
+				423B17461F42772C00D93939 /* Vista2ViewController.swift */,
 			);
 			path = "Mercedes Benz";
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				423B17471F42772C00D93939 /* Vista2ViewController.swift in Sources */,
 				422C03CB1F422E70008DAFF1 /* ViewController.swift in Sources */,
 				422C03C91F422E70008DAFF1 /* AppDelegate.swift in Sources */,
 			);
@@ -542,6 +546,7 @@
 				422C03EF1F422E71008DAFF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		422C03F01F422E71008DAFF1 /* Build configuration list for PBXNativeTarget "Mercedes BenzTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +555,7 @@
 				422C03F21F422E71008DAFF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		422C03F31F422E71008DAFF1 /* Build configuration list for PBXNativeTarget "Mercedes BenzUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +564,7 @@
 				422C03F51F422E71008DAFF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
