@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //clase 2
     @IBOutlet weak var marca: UILabel!
     @IBOutlet weak var color: UILabel!
     @IBOutlet weak var imagen: UIImageView!
