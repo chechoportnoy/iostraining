@@ -134,7 +134,7 @@
         <!--Vista 3-->
         <scene sceneID="8xH-gv-P9H">
             <objects>
-                <viewController title="Vista 3" id="98E-N5-qWs" sceneMemberID="viewController">
+                <viewController title="Vista 3" id="98E-N5-qWs" customClass="Vista3ViewController" customModule="Mercedes_Benz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2DF-Ws-wVT"/>
                         <viewControllerLayoutGuide type="bottom" id="pDI-1w-Idp"/>
@@ -144,7 +144,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TVp-oS-jfx">
-                                <rect key="frame" x="157" y="318" width="64" height="30"/>
+                                <rect key="frame" x="295" y="617" width="64" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Siguiente"/>
                                 <connections>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09A81897CBAE9513DED01F2B /* Pods_Mercedes_Benz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731400D14F8BEB8AD53C2553 /* Pods_Mercedes_Benz.framework */; };
 		422C03C91F422E70008DAFF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422C03C81F422E70008DAFF1 /* AppDelegate.swift */; };
 		422C03CB1F422E70008DAFF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422C03CA1F422E70008DAFF1 /* ViewController.swift */; };
 		422C03CE1F422E70008DAFF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422C03CC1F422E70008DAFF1 /* Main.storyboard */; };
@@ -20,6 +21,9 @@
 		422C03FE1F4238AB008DAFF1 /* rojo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422C03FD1F4238AB008DAFF1 /* rojo.jpg */; };
 		422C04001F4238B7008DAFF1 /* azul.png in Resources */ = {isa = PBXBuildFile; fileRef = 422C03FF1F4238B7008DAFF1 /* azul.png */; };
 		423B17471F42772C00D93939 /* Vista2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423B17461F42772C00D93939 /* Vista2ViewController.swift */; };
+		423B17491F428B8500D93939 /* Vista3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423B17481F428B8500D93939 /* Vista3ViewController.swift */; };
+		7A6C6079E7D574F76325DEF6 /* Pods_Mercedes_BenzUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC6575D7282A586D695FA70 /* Pods_Mercedes_BenzUITests.framework */; };
+		9984D8E0028B8FA4A9FC942F /* Pods_Mercedes_BenzTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEA898B74C84A9E8467C65D /* Pods_Mercedes_BenzTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		068A4DDBD5B222E842CDFA3D /* Pods-Mercedes BenzUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercedes BenzUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mercedes BenzUITests/Pods-Mercedes BenzUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0F09CF3D3C5375B2AA547467 /* Pods-Mercedes Benz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercedes Benz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mercedes Benz/Pods-Mercedes Benz.release.xcconfig"; sourceTree = "<group>"; };
+		354AC3E2AAE15DC65F0B97E5 /* Pods-Mercedes Benz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercedes Benz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mercedes Benz/Pods-Mercedes Benz.debug.xcconfig"; sourceTree = "<group>"; };
+		3FEA898B74C84A9E8467C65D /* Pods_Mercedes_BenzTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mercedes_BenzTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		422C03C51F422E70008DAFF1 /* Mercedes Benz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mercedes Benz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		422C03C81F422E70008DAFF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		422C03CA1F422E70008DAFF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +67,12 @@
 		422C03FD1F4238AB008DAFF1 /* rojo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rojo.jpg; sourceTree = "<group>"; };
 		422C03FF1F4238B7008DAFF1 /* azul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = azul.png; sourceTree = "<group>"; };
 		423B17461F42772C00D93939 /* Vista2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vista2ViewController.swift; sourceTree = "<group>"; };
+		423B17481F428B8500D93939 /* Vista3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vista3ViewController.swift; sourceTree = "<group>"; };
+		699C3E216D76B44BCBFD9405 /* Pods-Mercedes BenzTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercedes BenzTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mercedes BenzTests/Pods-Mercedes BenzTests.release.xcconfig"; sourceTree = "<group>"; };
+		731400D14F8BEB8AD53C2553 /* Pods_Mercedes_Benz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mercedes_Benz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC6575D7282A586D695FA70 /* Pods_Mercedes_BenzUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mercedes_BenzUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9B7634619EAFCAE38247FE /* Pods-Mercedes BenzTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercedes BenzTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mercedes BenzTests/Pods-Mercedes BenzTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F76B73AACBF67052AB5D3382 /* Pods-Mercedes BenzUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercedes BenzUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mercedes BenzUITests/Pods-Mercedes BenzUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09A81897CBAE9513DED01F2B /* Pods_Mercedes_Benz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9984D8E0028B8FA4A9FC942F /* Pods_Mercedes_BenzTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A6C6079E7D574F76325DEF6 /* Pods_Mercedes_BenzUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +110,8 @@
 				422C03DC1F422E71008DAFF1 /* Mercedes BenzTests */,
 				422C03E71F422E71008DAFF1 /* Mercedes BenzUITests */,
 				422C03C61F422E70008DAFF1 /* Products */,
+				4236712924BB6B0B014C0E99 /* Pods */,
+				9896D2E7582AED8BDE18FC2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +136,7 @@
 				422C03D11F422E70008DAFF1 /* LaunchScreen.storyboard */,
 				422C03D41F422E70008DAFF1 /* Info.plist */,
 				423B17461F42772C00D93939 /* Vista2ViewController.swift */,
+				423B17481F428B8500D93939 /* Vista3ViewController.swift */,
 			);
 			path = "Mercedes Benz";
 			sourceTree = "<group>";
@@ -151,6 +171,29 @@
 			name = Imagen;
 			sourceTree = "<group>";
 		};
+		4236712924BB6B0B014C0E99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				354AC3E2AAE15DC65F0B97E5 /* Pods-Mercedes Benz.debug.xcconfig */,
+				0F09CF3D3C5375B2AA547467 /* Pods-Mercedes Benz.release.xcconfig */,
+				DA9B7634619EAFCAE38247FE /* Pods-Mercedes BenzTests.debug.xcconfig */,
+				699C3E216D76B44BCBFD9405 /* Pods-Mercedes BenzTests.release.xcconfig */,
+				F76B73AACBF67052AB5D3382 /* Pods-Mercedes BenzUITests.debug.xcconfig */,
+				068A4DDBD5B222E842CDFA3D /* Pods-Mercedes BenzUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9896D2E7582AED8BDE18FC2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				731400D14F8BEB8AD53C2553 /* Pods_Mercedes_Benz.framework */,
+				3FEA898B74C84A9E8467C65D /* Pods_Mercedes_BenzTests.framework */,
+				AEC6575D7282A586D695FA70 /* Pods_Mercedes_BenzUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 422C03ED1F422E71008DAFF1 /* Build configuration list for PBXNativeTarget "Mercedes Benz" */;
 			buildPhases = (
+				CCAB7F1A1821030FE36B2AEA /* [CP] Check Pods Manifest.lock */,
 				422C03C11F422E70008DAFF1 /* Sources */,
 				422C03C21F422E70008DAFF1 /* Frameworks */,
 				422C03C31F422E70008DAFF1 /* Resources */,
+				EC45C7D6D9BEF2F3204CBF0A /* [CP] Embed Pods Frameworks */,
+				C3BC9326F782DCCBC07A44C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 422C03F01F422E71008DAFF1 /* Build configuration list for PBXNativeTarget "Mercedes BenzTests" */;
 			buildPhases = (
+				9B2B309FF7C6B1301BD8DB5F /* [CP] Check Pods Manifest.lock */,
 				422C03D51F422E70008DAFF1 /* Sources */,
 				422C03D61F422E70008DAFF1 /* Frameworks */,
 				422C03D71F422E70008DAFF1 /* Resources */,
+				039F158515974E6F97BFA1BF /* [CP] Embed Pods Frameworks */,
+				7D4C9BC8F23493424650851B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 422C03F31F422E71008DAFF1 /* Build configuration list for PBXNativeTarget "Mercedes BenzUITests" */;
 			buildPhases = (
+				F7B9D29133A0A027963A1B6B /* [CP] Check Pods Manifest.lock */,
 				422C03E01F422E71008DAFF1 /* Sources */,
 				422C03E11F422E71008DAFF1 /* Frameworks */,
 				422C03E21F422E71008DAFF1 /* Resources */,
+				5CF80A870636B00E02250FAC /* [CP] Embed Pods Frameworks */,
+				4294CE1ADF7E1CE42434CB2C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -288,6 +340,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		039F158515974E6F97BFA1BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mercedes BenzTests/Pods-Mercedes BenzTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4294CE1ADF7E1CE42434CB2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mercedes BenzUITests/Pods-Mercedes BenzUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CF80A870636B00E02250FAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mercedes BenzUITests/Pods-Mercedes BenzUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D4C9BC8F23493424650851B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mercedes BenzTests/Pods-Mercedes BenzTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B2B309FF7C6B1301BD8DB5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mercedes BenzTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3BC9326F782DCCBC07A44C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mercedes Benz/Pods-Mercedes Benz-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mercedes Benz/Pods-Mercedes Benz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCAB7F1A1821030FE36B2AEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mercedes Benz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC45C7D6D9BEF2F3204CBF0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mercedes Benz/Pods-Mercedes Benz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7B9D29133A0A027963A1B6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mercedes BenzUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		422C03C11F422E70008DAFF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -295,6 +497,7 @@
 			files = (
 				423B17471F42772C00D93939 /* Vista2ViewController.swift in Sources */,
 				422C03CB1F422E70008DAFF1 /* ViewController.swift in Sources */,
+				423B17491F428B8500D93939 /* Vista3ViewController.swift in Sources */,
 				422C03C91F422E70008DAFF1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +648,7 @@
 		};
 		422C03EE1F422E71008DAFF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 354AC3E2AAE15DC65F0B97E5 /* Pods-Mercedes Benz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BWWS56KLGP;
@@ -458,6 +662,7 @@
 		};
 		422C03EF1F422E71008DAFF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F09CF3D3C5375B2AA547467 /* Pods-Mercedes Benz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BWWS56KLGP;
@@ -471,6 +676,7 @@
 		};
 		422C03F11F422E71008DAFF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA9B7634619EAFCAE38247FE /* Pods-Mercedes BenzTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +692,7 @@
 		};
 		422C03F21F422E71008DAFF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699C3E216D76B44BCBFD9405 /* Pods-Mercedes BenzTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,6 +708,7 @@
 		};
 		422C03F41F422E71008DAFF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F76B73AACBF67052AB5D3382 /* Pods-Mercedes BenzUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BWWS56KLGP;
@@ -515,6 +723,7 @@
 		};
 		422C03F51F422E71008DAFF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 068A4DDBD5B222E842CDFA3D /* Pods-Mercedes BenzUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BWWS56KLGP;
