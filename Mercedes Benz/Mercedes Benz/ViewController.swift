@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         marca.text="";
         color.text="";
         imagen.isHidden=true;
+        self.title="PRIMERO";
     }
 
     override func didReceiveMemoryWarning() {
