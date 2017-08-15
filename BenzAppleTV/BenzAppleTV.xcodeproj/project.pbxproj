@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42CCECFF1F435038002C8A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CCECFE1F435038002C8A80 /* AppDelegate.swift */; };
+		42CCED011F435038002C8A80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CCED001F435038002C8A80 /* ViewController.swift */; };
+		42CCED041F435038002C8A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CCED021F435038002C8A80 /* Main.storyboard */; };
+		42CCED061F435038002C8A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42CCED051F435038002C8A80 /* Assets.xcassets */; };
+		42CCED111F435038002C8A80 /* BenzAppleTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CCED101F435038002C8A80 /* BenzAppleTVTests.swift */; };
+		42CCED1C1F435038002C8A80 /* BenzAppleTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CCED1B1F435038002C8A80 /* BenzAppleTVUITests.swift */; };
+		42CCED2E1F43512F002C8A80 /* Vista2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CCED2D1F43512F002C8A80 /* Vista2ViewController.swift */; };
+		42CCED331F435338002C8A80 /* azul.png in Resources */ = {isa = PBXBuildFile; fileRef = 42CCED2F1F435338002C8A80 /* azul.png */; };
+		42CCED341F435338002C8A80 /* Negro.png in Resources */ = {isa = PBXBuildFile; fileRef = 42CCED301F435338002C8A80 /* Negro.png */; };
+		42CCED351F435338002C8A80 /* Plata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CCED311F435338002C8A80 /* Plata.jpg */; };
+		42CCED361F435338002C8A80 /* rojo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CCED321F435338002C8A80 /* rojo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42CCED0D1F435038002C8A80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42CCECF31F435037002C8A80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42CCECFA1F435037002C8A80;
+			remoteInfo = BenzAppleTV;
+		};
+		42CCED181F435038002C8A80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42CCECF31F435037002C8A80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42CCECFA1F435037002C8A80;
+			remoteInfo = BenzAppleTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42CCECFB1F435037002C8A80 /* BenzAppleTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BenzAppleTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CCECFE1F435038002C8A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42CCED001F435038002C8A80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42CCED031F435038002C8A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42CCED051F435038002C8A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42CCED071F435038002C8A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CCED0C1F435038002C8A80 /* BenzAppleTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenzAppleTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CCED101F435038002C8A80 /* BenzAppleTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenzAppleTVTests.swift; sourceTree = "<group>"; };
+		42CCED121F435038002C8A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CCED171F435038002C8A80 /* BenzAppleTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenzAppleTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CCED1B1F435038002C8A80 /* BenzAppleTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenzAppleTVUITests.swift; sourceTree = "<group>"; };
+		42CCED1D1F435038002C8A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CCED2D1F43512F002C8A80 /* Vista2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vista2ViewController.swift; sourceTree = "<group>"; };
+		42CCED2F1F435338002C8A80 /* azul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = azul.png; sourceTree = "<group>"; };
+		42CCED301F435338002C8A80 /* Negro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Negro.png; sourceTree = "<group>"; };
+		42CCED311F435338002C8A80 /* Plata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Plata.jpg; sourceTree = "<group>"; };
+		42CCED321F435338002C8A80 /* rojo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rojo.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42CCECF81F435037002C8A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CCED091F435038002C8A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CCED141F435038002C8A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42CCECF21F435037002C8A80 = {
+			isa = PBXGroup;
+			children = (
+				42CCECFD1F435037002C8A80 /* BenzAppleTV */,
+				42CCED0F1F435038002C8A80 /* BenzAppleTVTests */,
+				42CCED1A1F435038002C8A80 /* BenzAppleTVUITests */,
+				42CCECFC1F435037002C8A80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42CCECFC1F435037002C8A80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42CCECFB1F435037002C8A80 /* BenzAppleTV.app */,
+				42CCED0C1F435038002C8A80 /* BenzAppleTVTests.xctest */,
+				42CCED171F435038002C8A80 /* BenzAppleTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42CCECFD1F435037002C8A80 /* BenzAppleTV */ = {
+			isa = PBXGroup;
+			children = (
+				42CCECFE1F435038002C8A80 /* AppDelegate.swift */,
+				42CCED001F435038002C8A80 /* ViewController.swift */,
+				42CCED2D1F43512F002C8A80 /* Vista2ViewController.swift */,
+				42CCED021F435038002C8A80 /* Main.storyboard */,
+				42CCED371F43534C002C8A80 /* Image */,
+				42CCED051F435038002C8A80 /* Assets.xcassets */,
+				42CCED071F435038002C8A80 /* Info.plist */,
+			);
+			path = BenzAppleTV;
+			sourceTree = "<group>";
+		};
+		42CCED0F1F435038002C8A80 /* BenzAppleTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				42CCED101F435038002C8A80 /* BenzAppleTVTests.swift */,
+				42CCED121F435038002C8A80 /* Info.plist */,
+			);
+			path = BenzAppleTVTests;
+			sourceTree = "<group>";
+		};
+		42CCED1A1F435038002C8A80 /* BenzAppleTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42CCED1B1F435038002C8A80 /* BenzAppleTVUITests.swift */,
+				42CCED1D1F435038002C8A80 /* Info.plist */,
+			);
+			path = BenzAppleTVUITests;
+			sourceTree = "<group>";
+		};
+		42CCED371F43534C002C8A80 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				42CCED2F1F435338002C8A80 /* azul.png */,
+				42CCED301F435338002C8A80 /* Negro.png */,
+				42CCED311F435338002C8A80 /* Plata.jpg */,
+				42CCED321F435338002C8A80 /* rojo.jpg */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42CCECFA1F435037002C8A80 /* BenzAppleTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42CCED201F435038002C8A80 /* Build configuration list for PBXNativeTarget "BenzAppleTV" */;
+			buildPhases = (
+				42CCECF71F435037002C8A80 /* Sources */,
+				42CCECF81F435037002C8A80 /* Frameworks */,
+				42CCECF91F435037002C8A80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BenzAppleTV;
+			productName = BenzAppleTV;
+			productReference = 42CCECFB1F435037002C8A80 /* BenzAppleTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42CCED0B1F435038002C8A80 /* BenzAppleTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42CCED231F435038002C8A80 /* Build configuration list for PBXNativeTarget "BenzAppleTVTests" */;
+			buildPhases = (
+				42CCED081F435038002C8A80 /* Sources */,
+				42CCED091F435038002C8A80 /* Frameworks */,
+				42CCED0A1F435038002C8A80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42CCED0E1F435038002C8A80 /* PBXTargetDependency */,
+			);
+			name = BenzAppleTVTests;
+			productName = BenzAppleTVTests;
+			productReference = 42CCED0C1F435038002C8A80 /* BenzAppleTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42CCED161F435038002C8A80 /* BenzAppleTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42CCED261F435038002C8A80 /* Build configuration list for PBXNativeTarget "BenzAppleTVUITests" */;
+			buildPhases = (
+				42CCED131F435038002C8A80 /* Sources */,
+				42CCED141F435038002C8A80 /* Frameworks */,
+				42CCED151F435038002C8A80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42CCED191F435038002C8A80 /* PBXTargetDependency */,
+			);
+			name = BenzAppleTVUITests;
+			productName = BenzAppleTVUITests;
+			productReference = 42CCED171F435038002C8A80 /* BenzAppleTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42CCECF31F435037002C8A80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sergio Huerta";
+				TargetAttributes = {
+					42CCECFA1F435037002C8A80 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BWWS56KLGP;
+						ProvisioningStyle = Automatic;
+					};
+					42CCED0B1F435038002C8A80 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BWWS56KLGP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42CCECFA1F435037002C8A80;
+					};
+					42CCED161F435038002C8A80 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BWWS56KLGP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42CCECFA1F435037002C8A80;
+					};
+				};
+			};
+			buildConfigurationList = 42CCECF61F435037002C8A80 /* Build configuration list for PBXProject "BenzAppleTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42CCECF21F435037002C8A80;
+			productRefGroup = 42CCECFC1F435037002C8A80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42CCECFA1F435037002C8A80 /* BenzAppleTV */,
+				42CCED0B1F435038002C8A80 /* BenzAppleTVTests */,
+				42CCED161F435038002C8A80 /* BenzAppleTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42CCECF91F435037002C8A80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CCED061F435038002C8A80 /* Assets.xcassets in Resources */,
+				42CCED361F435338002C8A80 /* rojo.jpg in Resources */,
+				42CCED041F435038002C8A80 /* Main.storyboard in Resources */,
+				42CCED351F435338002C8A80 /* Plata.jpg in Resources */,
+				42CCED331F435338002C8A80 /* azul.png in Resources */,
+				42CCED341F435338002C8A80 /* Negro.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CCED0A1F435038002C8A80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CCED151F435038002C8A80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42CCECF71F435037002C8A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CCED2E1F43512F002C8A80 /* Vista2ViewController.swift in Sources */,
+				42CCED011F435038002C8A80 /* ViewController.swift in Sources */,
+				42CCECFF1F435038002C8A80 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CCED081F435038002C8A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CCED111F435038002C8A80 /* BenzAppleTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CCED131F435038002C8A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CCED1C1F435038002C8A80 /* BenzAppleTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42CCED0E1F435038002C8A80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42CCECFA1F435037002C8A80 /* BenzAppleTV */;
+			targetProxy = 42CCED0D1F435038002C8A80 /* PBXContainerItemProxy */;
+		};
+		42CCED191F435038002C8A80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42CCECFA1F435037002C8A80 /* BenzAppleTV */;
+			targetProxy = 42CCED181F435038002C8A80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42CCED021F435038002C8A80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42CCED031F435038002C8A80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42CCED1E1F435038002C8A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		42CCED1F1F435038002C8A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42CCED211F435038002C8A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = BWWS56KLGP;
+				INFOPLIST_FILE = BenzAppleTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.BenzAppleTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		42CCED221F435038002C8A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = BWWS56KLGP;
+				INFOPLIST_FILE = BenzAppleTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.BenzAppleTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		42CCED241F435038002C8A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BWWS56KLGP;
+				INFOPLIST_FILE = BenzAppleTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.BenzAppleTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BenzAppleTV.app/BenzAppleTV";
+			};
+			name = Debug;
+		};
+		42CCED251F435038002C8A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BWWS56KLGP;
+				INFOPLIST_FILE = BenzAppleTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.BenzAppleTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BenzAppleTV.app/BenzAppleTV";
+			};
+			name = Release;
+		};
+		42CCED271F435038002C8A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BWWS56KLGP;
+				INFOPLIST_FILE = BenzAppleTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.BenzAppleTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BenzAppleTV;
+			};
+			name = Debug;
+		};
+		42CCED281F435038002C8A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BWWS56KLGP;
+				INFOPLIST_FILE = BenzAppleTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.BenzAppleTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BenzAppleTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42CCECF61F435037002C8A80 /* Build configuration list for PBXProject "BenzAppleTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CCED1E1F435038002C8A80 /* Debug */,
+				42CCED1F1F435038002C8A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42CCED201F435038002C8A80 /* Build configuration list for PBXNativeTarget "BenzAppleTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CCED211F435038002C8A80 /* Debug */,
+				42CCED221F435038002C8A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42CCED231F435038002C8A80 /* Build configuration list for PBXNativeTarget "BenzAppleTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CCED241F435038002C8A80 /* Debug */,
+				42CCED251F435038002C8A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42CCED261F435038002C8A80 /* Build configuration list for PBXNativeTarget "BenzAppleTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CCED271F435038002C8A80 /* Debug */,
+				42CCED281F435038002C8A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42CCECF31F435037002C8A80 /* Project object */;
+}
