@@ -1,5 +1,5 @@
 //
-//  Vista3ViewController.swift
+//  Vista5ViewController.swift
 //  MenuWhatsUniversal
 //
 //  Created by Sergio Huerta on 8/15/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Vista3ViewController: UIViewController {
+class Vista5ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +22,7 @@ class Vista3ViewController: UIViewController {
     }
     
     @IBAction func mostrarMensaje(_ sender: Any) {
-        let alertController = UIAlertController(title: "Alerta", message: "Esta es la vista 3.", preferredStyle: UIAlertControllerStyle.alert)
+        let alertController = UIAlertController(title: "Alerta", message: "Esta es la vista 5. y es un PopUp", preferredStyle: UIAlertControllerStyle.alert)
         let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.cancel) { (result : UIAlertAction) -> Void in
             print("Cancel")
         }
@@ -33,7 +33,6 @@ class Vista3ViewController: UIViewController {
         alertController.addAction(okAction)
         self.present(alertController, animated: true, completion: nil)
 
-        
     }
 
     /*

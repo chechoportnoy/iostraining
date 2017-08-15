@@ -20,6 +20,19 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func mostrarMensaje(_ sender: Any) {
+        let alertController = UIAlertController(title: "Alerta", message: "Esta es la vista 2.", preferredStyle: UIAlertControllerStyle.alert)
+        let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.cancel) { (result : UIAlertAction) -> Void in
+            print("Cancel")
+        }
+        let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default) { (result : UIAlertAction) -> Void in
+            print("OK")
+        }
+        alertController.addAction(cancelAction)
+        alertController.addAction(okAction)
+        self.present(alertController, animated: true, completion: nil)
+
+    }
 
 }
 

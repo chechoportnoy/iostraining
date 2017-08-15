@@ -19,6 +19,7 @@
 		4250BEC31F4373D300110DFE /* Vista3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250BEC21F4373D300110DFE /* Vista3ViewController.swift */; };
 		4250BEC51F4373DE00110DFE /* Vista4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250BEC41F4373DE00110DFE /* Vista4ViewController.swift */; };
 		4250BEC81F4376FB00110DFE /* logoverde.png in Resources */ = {isa = PBXBuildFile; fileRef = 4250BEC71F4376FB00110DFE /* logoverde.png */; };
+		4250BECC1F43AA0300110DFE /* Vista5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250BECB1F43AA0300110DFE /* Vista5ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		4250BEC21F4373D300110DFE /* Vista3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vista3ViewController.swift; sourceTree = "<group>"; };
 		4250BEC41F4373DE00110DFE /* Vista4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vista4ViewController.swift; sourceTree = "<group>"; };
 		4250BEC71F4376FB00110DFE /* logoverde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoverde.png; sourceTree = "<group>"; };
+		4250BECB1F43AA0300110DFE /* Vista5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vista5ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				4250BE941F43722000110DFE /* SecondViewController.swift */,
 				4250BEC21F4373D300110DFE /* Vista3ViewController.swift */,
 				4250BEC41F4373DE00110DFE /* Vista4ViewController.swift */,
+				4250BECB1F43AA0300110DFE /* Vista5ViewController.swift */,
 				4250BE961F43722000110DFE /* Main.storyboard */,
 				4250BE991F43722000110DFE /* Assets.xcassets */,
 				4250BEC61F4373E800110DFE /* Imagen */,
@@ -289,6 +292,7 @@
 			files = (
 				4250BEC51F4373DE00110DFE /* Vista4ViewController.swift in Sources */,
 				4250BE951F43722000110DFE /* SecondViewController.swift in Sources */,
+				4250BECC1F43AA0300110DFE /* Vista5ViewController.swift in Sources */,
 				4250BE911F43722000110DFE /* AppDelegate.swift in Sources */,
 				4250BEC31F4373D300110DFE /* Vista3ViewController.swift in Sources */,
 				4250BE931F43722000110DFE /* FirstViewController.swift in Sources */,
@@ -544,6 +548,7 @@
 				4250BEB91F43722000110DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4250BEBA1F43722000110DFE /* Build configuration list for PBXNativeTarget "MenuWhatsUniversalTests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +557,7 @@
 				4250BEBC1F43722000110DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4250BEBD1F43722000110DFE /* Build configuration list for PBXNativeTarget "MenuWhatsUniversalUITests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +566,7 @@
 				4250BEBF1F43722000110DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

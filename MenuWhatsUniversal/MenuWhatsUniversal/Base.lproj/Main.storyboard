@@ -13,7 +13,7 @@
         <!--Vista 4-->
         <scene sceneID="FMr-Rg-wJJ">
             <objects>
-                <viewController id="JsO-gu-2bc" sceneMemberID="viewController">
+                <viewController id="JsO-gu-2bc" customClass="Vista4ViewController" customModule="MenuWhatsUniversal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="agE-mX-oa7"/>
                         <viewControllerLayoutGuide type="bottom" id="F2z-66-RJD"/>
@@ -29,6 +29,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGV-rV-sv5">
+                                <rect key="frame" x="136" y="421" width="103" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Mensaje"/>
+                                <connections>
+                                    <action selector="mostrarMensaje:" destination="JsO-gu-2bc" eventType="touchUpInside" id="wnV-eH-Zgm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -36,7 +44,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kls-Xh-xdE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-54" y="-815"/>
+            <point key="canvasLocation" x="-55.200000000000003" y="-815.44227886056979"/>
         </scene>
         <!--Xbox-->
         <scene sceneID="Aez-y7-MwD">
@@ -103,10 +111,10 @@
             </objects>
             <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
         </scene>
-        <!--Item-->
+        <!--Xbox-->
         <scene sceneID="iG9-v7-Ygt">
             <objects>
-                <viewController id="654-GD-fSa" sceneMemberID="viewController">
+                <viewController id="654-GD-fSa" customClass="Vista3ViewController" customModule="MenuWhatsUniversal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7lZ-71-VOd"/>
                         <viewControllerLayoutGuide type="bottom" id="pHl-xD-usz"/>
@@ -133,6 +141,14 @@
                                     <segue destination="SH5-Rq-Ort" kind="show" id="1H6-w9-2JJ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWT-L4-gQi">
+                                <rect key="frame" x="132" y="539" width="111" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Mensaje"/>
+                                <connections>
+                                    <action selector="mostrarMensaje:" destination="654-GD-fSa" eventType="touchUpInside" id="r3T-dC-8n7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -141,17 +157,17 @@
                             <constraint firstItem="y90-EX-wNe" firstAttribute="leading" secondItem="BKG-h0-VRc" secondAttribute="leadingMargin" constant="107" id="lBn-dd-EL7"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Pne-rG-nsM"/>
+                    <tabBarItem key="tabBarItem" title="Xbox" image="first" id="Pne-rG-nsM"/>
                     <navigationItem key="navigationItem" id="15B-P1-tad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zwb-ww-SOa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-10.4" y="798.35082458770626"/>
         </scene>
-        <!--View Controller-->
+        <!--Vista5 View Controller-->
         <scene sceneID="TT4-W4-rsm">
             <objects>
-                <viewController id="SH5-Rq-Ort" sceneMemberID="viewController">
+                <viewController id="SH5-Rq-Ort" customClass="Vista5ViewController" customModule="MenuWhatsUniversal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="I9j-iy-ekl"/>
                         <viewControllerLayoutGuide type="bottom" id="67f-hB-pNJ"/>
@@ -171,13 +187,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GRO-57-tCq">
+                                <rect key="frame" x="139" y="494" width="96" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="logoverde.png"/>
+                                <connections>
+                                    <action selector="mostrarMensaje:" destination="SH5-Rq-Ort" eventType="touchUpInside" id="FeH-De-4eQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FLW-RC-mne" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="761" y="1058"/>
+            <point key="canvasLocation" x="760.79999999999995" y="1057.4212893553224"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
@@ -204,6 +228,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AS1-hG-9eK">
+                                <rect key="frame" x="144" y="417" width="87" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Mensaje"/>
+                                <connections>
+                                    <action selector="mostrarMensaje:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="tWH-Ut-tA6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -217,7 +249,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="360"/>
+            <point key="canvasLocation" x="749.60000000000002" y="359.37031484257875"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
