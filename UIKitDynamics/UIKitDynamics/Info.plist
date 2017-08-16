@@ -34,7 +34,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Mapas Test Quiere usar tu ubicacion ... </string>
 </dict>
 </plist>
