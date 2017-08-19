@@ -193,8 +193,7 @@
 				TargetAttributes = {
 					422C03501F420B64008DAFF1 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = BWWS56KLGP;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					422C03641F420B64008DAFF1 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -415,11 +414,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BWWS56KLGP;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CalculadoraUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SH.CalculadoraUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -429,11 +429,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BWWS56KLGP;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CalculadoraUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SH.CalculadoraUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -512,6 +513,7 @@
 				422C037B1F420B65008DAFF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		422C037C1F420B65008DAFF1 /* Build configuration list for PBXNativeTarget "CalculadoraUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +522,7 @@
 				422C037E1F420B65008DAFF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		422C037F1F420B65008DAFF1 /* Build configuration list for PBXNativeTarget "CalculadoraUIUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +531,7 @@
 				422C03811F420B65008DAFF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -216,8 +216,7 @@
 				TargetAttributes = {
 					422C03C41F422E70008DAFF1 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = BWWS56KLGP;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					422C03D81F422E70008DAFF1 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -443,11 +442,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BWWS56KLGP;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Mercedes Benz/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SH.Mercedes-Benz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -456,11 +456,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BWWS56KLGP;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Mercedes Benz/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SH.Mercedes-Benz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -542,6 +543,7 @@
 				422C03EF1F422E71008DAFF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		422C03F01F422E71008DAFF1 /* Build configuration list for PBXNativeTarget "Mercedes BenzTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +552,7 @@
 				422C03F21F422E71008DAFF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		422C03F31F422E71008DAFF1 /* Build configuration list for PBXNativeTarget "Mercedes BenzUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +561,7 @@
 				422C03F51F422E71008DAFF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

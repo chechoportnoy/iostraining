@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import CoreData
 
 class TableViewController: UITableViewController {
     
-    var palabras:[String] = ["Foo Fighters", "Dream Theater", "Journey"]
+    //var palabras:[String] = ["Foo Fighters", "Dream Theater", "Journey"]
     
+    var managedObjects:[NSManagedObject] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +23,19 @@ class TableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+    
+        let appDelegate = UIApplication.shared.delegate as? AppDelegate
+        
+        let managedContext = appDelegate!.persistentContainer.viewContext
+        
+        let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "Lista")
+        
+        do{
+            managedObjects = try managedContext.fetch(fetchRequest)
+        }catch let error as NSError {
+                print("NO puedo recuperar los datos guardados. El error fue: \(error), \(error.userInfo)")
+        }
+    
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,7 +53,8 @@ class TableViewController: UITableViewController {
                                     style: UIAlertActionStyle.default,
                                     handler: {(action:UIAlertAction) -> Void in
                                             let textField = alerta.textFields!.first
-                                            self.palabras.append(textField!.text!)
+                                            //self.palabras.append(textField!.text!)
+                                        self.guardarPalabra(palabra: textField!.text!)
                                             self.tableView.reloadData() }
                                     )
         
@@ -53,6 +69,24 @@ class TableViewController: UITableViewController {
         present(alerta, animated: true, completion: nil)
     }
     
+    
+    func guardarPalabra(palabra: String){
+        let appDelegate = UIApplication.shared.delegate as? AppDelegate
+        let managedContext = appDelegate?.persistentContainer.viewContext
+        
+        let entity = NSEntityDescription.entity(forEntityName: "Lista", in: managedContext!)!
+        let managedObject = NSManagedObject(entity: entity, insertInto: managedContext)
+        
+        managedObject.setValue(palabra, forKey: "palabra")
+        
+        do{
+            try managedContext?.save()
+            managedObjects.append(managedObject)
+        }catch let error as NSError{
+            print("No se pudo guardar, error:\(error), \(error.userInfo)")
+        }
+    }
+    
 
     // MARK: - Table view data source
 
@@ -63,16 +97,19 @@ class TableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return palabras.count
+        return managedObjects.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "palabra", for: indexPath)
+        
 
         // Configure the cell...
-        cell.textLabel?.text=palabras[indexPath.row]
-
+        let managedObject = managedObjects[indexPath.row]
+        cell.textLabel?.text = managedObject.value(forKey: "palabra") as? String
+        
+        
         return cell
     }
     
